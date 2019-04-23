@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import cn.stu.cusview.ruiz.rx.convert.ConvertEntranceActivity;
 import cn.stu.cusview.ruiz.rx.create.CreateEntrancwActivity;
+import cn.stu.cusview.ruiz.rx.util.Utils;
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
@@ -36,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CreateEntrancwActivity.class);
         startActivity(intent);
     }
+
+    public void goConvertOperator(View view){
+        Utils.startActivity(this, ConvertEntranceActivity.class);
+    }
+
 }

@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".create.OtherOpActivity"></activity>
+        <activity android:name=".convert.WindowOpActivity"></activity>
+        <activity android:name=".convert.ScanOpActivity" />
+        <activity android:name=".convert.GroupByOpActivity" />
+        <activity android:name=".convert.BufferOpActivity" />
+        <activity android:name=".convert.ContactMapActivity" />
+        <activity android:name=".convert.FlatMapActivity" />
+        <activity android:name=".convert.MapOpActivity" />
+        <activity android:name=".convert.ConvertEntranceActivity" />
+        <activity android:name=".create.OtherOpActivity" />
         <activity android:name=".create.RangeLongActivity" />
         <activity android:name=".create.RangeOpActivity" />
         <activity android:name=".create.IntervalRangeActivity" />
