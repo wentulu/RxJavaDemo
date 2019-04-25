@@ -3,18 +3,12 @@ package cn.stu.cusview.ruiz.rx;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
+import cn.stu.cusview.ruiz.rx.combine.CombineEntranceActivity;
 import cn.stu.cusview.ruiz.rx.convert.ConvertEntranceActivity;
 import cn.stu.cusview.ruiz.rx.create.CreateEntrancwActivity;
 import cn.stu.cusview.ruiz.rx.util.Utils;
-import io.reactivex.Observable;
-import io.reactivex.ObservableEmitter;
-import io.reactivex.ObservableOnSubscribe;
-import io.reactivex.Observer;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.exceptions.UndeliverableException;
 
 /**
  * RX的入口代码
@@ -41,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void goConvertOperator(View view){
         Utils.startActivity(this, ConvertEntranceActivity.class);
+    }
+
+
+    public void goCombineOperator(View view){
+        Utils.startActivity(this, CombineEntranceActivity.class);
     }
 
 }

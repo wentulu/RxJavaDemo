@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:divider="@android:drawable/divider_horizontal_dim_dark"
+    android:showDividers="middle"
+    tools:context=".combine.CombineEntranceActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Operator"
+        android:onClick="goConcatOp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ContactArray Operator"
+        android:onClick="goConcatArrayOp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merge Operator"
+        android:onClick="goMergeOp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="concatArrayDelayError Operator"
+        android:onClick="goConcatArrayDelayError"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mergeArrayDelayError Operator"
+        android:onClick="goMergeArrayDelayError"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zip Operator"
+        android:onClick="goZipOperator"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="combineLast Operator"
+        android:onClick="gocombineLastOperator"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reduce Operator"
+        android:onClick="goReduceOperator"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Collect Operator"
+        android:onClick="goCollectOperator"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start With XX Operator"
+        android:onClick="goStartWithOperator"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count Operator"
+        android:onClick="goCountOperator"/>
+</LinearLayout>

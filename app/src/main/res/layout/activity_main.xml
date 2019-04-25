@@ -22,4 +22,9 @@
         android:layout_height="wrap_content"
         android:text="Convert"
         android:onClick="goConvertOperator"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Combination"
+        android:onClick="goCombineOperator"/>
 </LinearLayout>
