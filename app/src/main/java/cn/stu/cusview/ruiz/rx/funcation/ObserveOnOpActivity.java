@@ -60,7 +60,7 @@ public class ObserveOnOpActivity extends AppCompatActivity {
 
                     @Override
                     public void onComplete() {
-                        Log.e(TAG, "onComplete: ");
+                        Log.e(TAG, "onComplete: "+Thread.currentThread().getName());
                     }
                 });
     }
