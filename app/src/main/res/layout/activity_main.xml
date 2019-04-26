@@ -27,4 +27,11 @@
         android:layout_height="wrap_content"
         android:text="Combination"
         android:onClick="goCombineOperator"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Functional Operator"
+        android:onClick="goFunctionalOperator"/>
+
+
 </LinearLayout>
