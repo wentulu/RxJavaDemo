@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import cn.stu.cusview.ruiz.rx.combine.CombineEntranceActivity;
+import cn.stu.cusview.ruiz.rx.conditional.ConditionalOperatorEntranceActivity;
 import cn.stu.cusview.ruiz.rx.convert.ConvertEntranceActivity;
 import cn.stu.cusview.ruiz.rx.create.CreateEntrancwActivity;
 import cn.stu.cusview.ruiz.rx.filter.FilterEntranceActivity;
@@ -50,6 +51,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void goFilterOperator(View view){
         Utils.startActivity(this, FilterEntranceActivity.class);
+    }
+
+
+    public void goConditionalOperator(View view){
+        Utils.startActivity(this, ConditionalOperatorEntranceActivity.class);
     }
 
 }
