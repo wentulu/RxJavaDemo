@@ -8,6 +8,7 @@ import android.view.View;
 import cn.stu.cusview.ruiz.rx.combine.CombineEntranceActivity;
 import cn.stu.cusview.ruiz.rx.convert.ConvertEntranceActivity;
 import cn.stu.cusview.ruiz.rx.create.CreateEntrancwActivity;
+import cn.stu.cusview.ruiz.rx.filter.FilterEntranceActivity;
 import cn.stu.cusview.ruiz.rx.funcation.FunctionalEntranceActivity;
 import cn.stu.cusview.ruiz.rx.util.Utils;
 
@@ -45,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void goFunctionalOperator(View view){
         Utils.startActivity(this, FunctionalEntranceActivity.class);
+    }
+
+    public void goFilterOperator(View view){
+        Utils.startActivity(this, FilterEntranceActivity.class);
     }
 
 }

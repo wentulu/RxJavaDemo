@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".filter.FilterEntranceActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter Operator"
+        android:onClick="goFilterOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ofType Operator"
+        android:onClick="goOfTypeOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip Operator"
+        android:onClick="goSkipOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distinct Operator"
+        android:onClick="goDistinctOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DistinctUntilChanged Operator"
+        android:onClick="goDistinctUntilChangedOpClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take Operator"
+        android:onClick="goTakeOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debounce Operator"
+        android:onClick="goDebounceOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ThrottleWithTimeout Operator"
+        android:onClick="goThrottleWithTimeoutOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First &amp; Last Operator"
+        android:onClick="goFirstLastElementOpClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ElementAtXXX Operator"
+        android:onClick="goElementXXXOpClick"/>
+</LinearLayout>
