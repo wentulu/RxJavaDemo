@@ -11,17 +11,28 @@ import cn.stu.cusview.ruiz.rx.convert.ConvertEntranceActivity;
 import cn.stu.cusview.ruiz.rx.create.CreateEntrancwActivity;
 import cn.stu.cusview.ruiz.rx.filter.FilterEntranceActivity;
 import cn.stu.cusview.ruiz.rx.funcation.FunctionalEntranceActivity;
+import cn.stu.cusview.ruiz.rx.okhttp.OkhttpExample1Activity;
 import cn.stu.cusview.ruiz.rx.util.Utils;
+import rx.Subscriber;
 
 /**
  * RX的入口代码
  * 以及简介
  * 参考博客 https://juejin.im/post/5b17560e6fb9a01e2862246f#heading-121
+ *
+ * Rx = Observable + LINQ +Schedulers
+ *
+ * 定义：利用一个可观察序列和LINQ风格的查询操作符来编写异步和基于事件的程序。
+ *
+ * <p>
+ * RxJava的云里就是创建一个Observable来处理干活，然后使用各种操作符建立起来的链式操作，如同流水线一样</br>
+ * ,把你想要的数据一步步地加工成你想要的成品，然后发射给Subscriber处理。
+ * </p>
+ *
  * */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
-
 
 
     @Override
@@ -56,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void goConditionalOperator(View view){
         Utils.startActivity(this, ConditionalOperatorEntranceActivity.class);
+    }
+
+    public void goOkHttpClick(View view){
+        Utils.startActivity(this, OkhttpExample1Activity.class);
     }
 
 }
